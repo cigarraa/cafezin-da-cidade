@@ -40,3 +40,18 @@ h2 {
     background: #f0e68c;
     
 }
+
+.inline-block .card {
+    display: inline-block;
+    width: 160px;
+    height: 120px;
+    vertical-align: top;
+    background: #ffe4b5;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    border-color: #8b4513;
+}
